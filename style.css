@@ -1,0 +1,44 @@
+/* Solution is to include in the beginning important shared rules. Then
+add rules in specificty order (ID selector, class selector and type selector*/
+
+body {
+  background-color:gainsboro;
+}
+
+h1,h2,h3,h4 {
+  color:mediumblue;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+ol, ul, div {
+  text-align: center;
+  font-size: 30px;
+  font-weight:lighter;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*
+ul, li{
+  text-align: center;
+}
+*/
+
+h1.li, div {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
